@@ -21,4 +21,5 @@ Route::middleware('auth')->group(function () {
 
 require __DIR__ . '/auth.php';
 
-Route::get('/test',[CvTemplateController::class, 'download'])->name('test_route');
+Route::get('/template',[CvTemplateController::class, 'template'])->name('test_route');
+Route::get('/save',[CvTemplateController::class,'save'])->name('save_template');
