@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    @vite('resources/css/app.css')
+    @vite(['resources/css/app.css','resources/css/template.css'])
+
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
@@ -42,11 +43,11 @@
                     </i>
                     <span> +57 3013838039</span>
                 </li>
-                <li>
-                    <p class="text-start tracking-wide" style="word-wrap: break-word;">
-                        <i class="material-symbols-outlined">
-                            mail
-                        </i>
+                <li class="flex gap-2">
+                    <i class="material-symbols-outlined">
+                        mail
+                    </i>
+                    <p class="text-start text-wrap tracking-wide " >
                         jhonazcaratework@gmail.com
                     </p>
                 </li>
