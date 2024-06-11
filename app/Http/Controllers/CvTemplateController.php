@@ -20,6 +20,6 @@ class CvTemplateController extends Controller
 
         return Pdf::view("cv_templates.template_{$template_number}",['route' => $request->fullUrl()])
             ->format('a4')
-            ->save('invoice.pdf');
+            ->name('invoice.pdf');
     }
 }
