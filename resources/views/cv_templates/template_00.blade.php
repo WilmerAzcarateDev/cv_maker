@@ -18,7 +18,7 @@
         <p class="text-center font-serif font-bold text-blue-950">Full Stack Developer.</p>
     </header>
 
-    <aside class="w-[30%] min-h-[100vh] bg-gray-300 mx-10 pt-52 px-6">
+    <aside class="w-[35%] min-h-[100vh] bg-gray-300 mx-10 pt-52 px-6">
         <div class="flex flex-col gap-3 border-b-4 border-dotted border-blue-950 pb-5">
             <h2 class="text-blue-950 text-xl font-semibold">
                 SOBRE MI
@@ -38,16 +38,16 @@
             </h2>
             <ul class="flex flex-col gap-3">
                 <li class="flex gap-2">
-                    <i class="material-symbols-outlined">
+                    <i class="material-symbols-outlined col-span-2">
                         call
                     </i>
-                    <span> +57 3013838039</span>
+                    <span class="col-span-9"> +57 3013838039</span>
                 </li>
-                <li class="flex gap-2">
-                    <i class="material-symbols-outlined">
+                <li class="grid grid-cols-12">
+                    <i class="material-symbols-outlined col-span-2">
                         mail
                     </i>
-                    <p class="text-start text-wrap tracking-wide " >
+                    <p class="text-start text-wrap tracking-wide col-span-9" style="word-wrap: break-word" >
                         jhonazcaratework@gmail.com
                     </p>
                 </li>
